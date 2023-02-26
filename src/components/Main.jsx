@@ -6,11 +6,13 @@ const Main = (props) => {
     <div className="main">
       <div className="card">
         <img src={img} alt="" className="mainİmg" />
-        <h4>{title}</h4>
+        <h4 className="title">{title}</h4>
         <div className="desc">
-          <p>{desc}</p>
+          <p className="desc">{desc}</p>
         </div>
-        <button className="btn">More Details</button>
+        <button style={{cursor: "pointer"}} className="btn" type="submit">
+          Enrollment
+        </button>
       </div>
     </div>
   );

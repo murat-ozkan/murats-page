@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-        <p>Copyright by Murat {new Date().getFullYear()}</p>
+        <p>Copyright by DigitalWay {new Date().getFullYear()}</p>
     </footer>
   )
 };
